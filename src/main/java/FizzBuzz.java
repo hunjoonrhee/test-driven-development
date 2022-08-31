@@ -1,13 +1,11 @@
 public class FizzBuzz {
 
     public static String fizzBuzz(int value){
-        // TODO - implement
-
-        if(value == 3){
+        if(value%3==0 && value%5!=0){
             return "fizz";
-        } else if (value == 5) {
+        } else if (value%3!=0 && value%5==0) {
             return "buzz";
-        } else if (value == 15) {
+        } else if (value%3==0 && value%5==0) {
             return "fizzbuzz";
         }else {
             return String.valueOf(value);
