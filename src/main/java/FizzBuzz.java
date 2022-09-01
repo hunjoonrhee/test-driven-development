@@ -14,7 +14,7 @@ public class FizzBuzz {
 
     public static String fizzBuzz(int value){
         if(value%3==0 && value%5!=0){
-            return "fizz";
+            return "fuzz";
         } else if (value%3!=0 && value%5==0) {
             return "buzz";
         } else if (value%3==0 && value%5==0) {
